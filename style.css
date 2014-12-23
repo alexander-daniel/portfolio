@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Montserrat;
+    font-weight: 400;
+    src: url("fonts/montserrat/Montserrat-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: 300;
+    src: url("fonts/montserrat/Montserrat-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: 200;
+    src: url("fonts/montserrat/Montserrat-Hairline.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: 600;
+    src: url("fonts/montserrat/Montserrat-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: 800;
+    src: url("fonts/montserrat/Montserrat-Black.otf") format("opentype");
+}
+
+html {
+    padding: 50px;
+    padding-top: 100px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 20pt;
+}
+
+
+
+a {
+    color: #003399;
+}
+
+a:visited {
+    color: #003399;
+}
+
+a:hover {
+    color: #003399;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 200;
+}
+
+h4 {
+    font-size: 24pt;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+div {
+    margin:0;
+    margin-bottom: 32px;
+}
+
+.face {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(face.jpg) no-repeat;
+    background-size: 100%;
+    float:right;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    margin-top: 16px;
+}

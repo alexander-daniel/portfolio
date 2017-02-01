@@ -38,8 +38,6 @@ html {
     font-size: 20pt;
 }
 
-
-
 a {
     color: #003399;
 }
@@ -75,6 +73,17 @@ div {
     margin-bottom: 32px;
 }
 
+body {
+  display: flex;
+  align-items: center;
+}
+
+.blurb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .face {
     width: 250px;
     height: 250px;
@@ -82,6 +91,7 @@ div {
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
     background: url(face.jpg) no-repeat;
+    border: 2px solid black;
     background-size: 100%;
     float:right;
     margin-left: 32px;

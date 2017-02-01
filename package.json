@@ -8,5 +8,8 @@
     "start": "node server.js"
   },
   "author": "Alexander Vados <alex.vados@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ecstatic": "^2.1.0"
+  }
 }
